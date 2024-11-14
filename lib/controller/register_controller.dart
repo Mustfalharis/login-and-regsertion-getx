@@ -38,7 +38,7 @@ class RegisterController extends GetxController
   void gotoHome(context){
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const HomeView()),
+      MaterialPageRoute(builder: (context) =>  HomeView()),
     );
   }
 

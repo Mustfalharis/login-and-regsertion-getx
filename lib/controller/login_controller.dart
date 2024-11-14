@@ -40,7 +40,7 @@ class LoginController extends GetxController
   void goToHome(context){
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const HomeView()),
+      MaterialPageRoute(builder: (context) =>  HomeView()),
     );
   }
   void goToRegister(context){
